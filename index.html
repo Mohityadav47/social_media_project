@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Mini instagram Project js</title>
+    <style>
+
+        #nn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #766bca;
+        }
+        #nn h1{
+
+            font-size: 30px;
+        }*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+color: #fff;
+}
+html,body{
+
+height: 100%;
+width: 100%;
+
+
+}
+
+#main{
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    height: 20%;
+    width: 70%;
+    background-color: transparent;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin-left: 300px;
+    
+    /*
+    margin-top: 90px;
+    border-radius: 50px; */
+
+}
+.cursor{
+
+    height: 40px;
+    width: 40px;
+    background-color:rgb(232, 210, 214) ;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+
+}
+h1{
+
+    
+    font-size: 26px;
+
+}
+/* html,body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: rgb(228, 112, 135);
+height: 100%;
+width: 100%;
+
+
+} */
+
+#card{
+ 
+
+background-color: rgb(34, 74, 110);
+    height: 600px;
+    width: 400px;
+    border-radius: 5px;
+padding: 30px;
+border: 3px solid black;
+}
+#card img{
+    height: 30%;
+    width:50%;
+    margin-top: 50px;
+    margin-left: 80px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 180px;
+}
+#card h1{
+font-size: 30px;
+margin-top: 20px;
+margin-left: 75px;
+}
+#card h5{
+    font-size: 45px;
+    color: crimson;
+    
+    margin-left: 93px;
+    margin-top: 40px;
+}
+#card button{
+font-size: 20px;
+    background-color: cadetblue;
+    color:#fff;
+    font-weight: 700;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+cursor: pointer;
+margin-left: 90px;
+margin-top: 40px;
+}body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#contaner{
+
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+position: relative;
+
+
+}
+#contaner #nm{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    margin: 44px;
+ 
+    
+}
+#contaner i{
+    color: #fff;
+    font-size: 75px;
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-50%,-50%) scale(0);
+
+opacity: 0;
+transition: transform ease 0.5s;
+}body{
+
+background-color: rgb(28, 128, 159);
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+#cards{
+
+height: 600px;
+width: 400px;
+background-color: #fff;
+border-radius: 10px;
+overflow: hidden;
+border: 3px solid black;
+position: relative;
+}
+#storiya{
+height: 120px;
+width: 100%;
+border-bottom: 1px solid #dadada;
+padding: 15px;
+white-space: nowrap;
+margin: 2px;
+overflow-x: auto;
+overflow-y: hidden;
+}
+#storiya::-webkit-scrollbar{
+display: none;
+}
+.story{
+
+border: 3px solid red;
+height: 90px;
+border-radius: 50%;
+width: 90px;
+overflow: hidden;
+display: inline-block;
+margin: 7px;
+}
+
+.story img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+object-position: center;
+}
+#full-screen{
+height: 100%;
+width: 100%;
+background-size: cover;
+background-position:center;
+position: absolute;
+display: none;
+}
+#all{
+
+display: flex;
+justify-content: space-between;
+gap: 150px;
+
+  
+}
+#contaner h1{
+    color: black;
+    font-size:17px;
+    width: 100%;
+margin-left: 30px;
+position: absolute;
+top:11%;
+left: 22%;
+}#contaner h2{
+    color: black;
+    font-size: 20px;
+    margin-left: 75px;
+}#contaner p{
+    color: black;
+    font-size: 13px;
+    margin-left: 105px;
+   position: absolute;
+   top: 18%;
+   left: -11%;
+
+}#name{display: flex;
+
+
+
+}
+#contaner #name #nl{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 9.5%;
+    left: 10%;
+
+    }
+    
+    footer{
+   margin-top: 1000px;
+   ;
+     justify-content: center;   
+    }@media (max-width:500px) {
+      body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+       
+        #all{
+        flex-direction: column;
+        margin-top: 1600px;
+        
+       } 
+       #main{
+        font-size: 10px;
+        height: 20%;
+        width: 70%;
+        position: absolute;
+        margin-left:100px;
+       }
+    }
+   #contaner #name #ee{
+        background-color: black;
+    }@media only screen and (max-width:1000px) {
+
+
+
+        #all{
+        flex-direction: column;
+        margin-top: 1600px;
+        
+       }
+       #main{
+        font-size: 10px;
+        height: 20%;
+        width: 70%;
+        position: absolute;
+        margin-left:100px;
+       }
+
+
+
+
+
+
+
+
+
+    }
+</style>
+
+
+
+</head>
+<body>
+    <!-- <header>
+        <div id="nn"><h1>his is mini instagram projct And cursor Followr</h1></div>
+    </header> -->
+    <!-- //corsur 
+     -->
+   
+     <div id="main">
+        
+        
+        <!-- <div class="cursor"></div> -->
+       
+        <h1>Add Your Friend or Remove And Watch the Stoies And Like the Post </h1>
+    </div>
+     <div id="all">
+
+       
+     <div id="card">
+
+            <img src="hhhhhh.jpg" alt="">
+            <h1>Moohit yadav </h1>
+        
+            <h5>stranger</h5>
+            <button id="add">Follow</button>
+           
+        </div>
+        
+            <div id="cards">
+
+                <div id="full-screen">
+        
+                </div>
+                
+        <div id="storiya">
+        
+        
+            </div><div id="contaner">
+                <div id="name"><img id="nl" src="hhhhhh.jpg" alt=""><h1>Mohit Yadav</h1>
+                   </div> <p>Burhaanpur India</p>
+                <img id="nm"   src="IMG_6991 (4).jpg" alt="">
+                <i class= "ri-heart-3-fill"></i> 
+                <div id="li"><i id="ee" class="ri-heart-3-fill"></i></div>  
+                <h2>Double click To Like</h2> 
+                </div></div>
+                   
+     </div>
+    
+    <script>  var main = document.querySelector("#main")
+        var cr = document.querySelector(".cursor")
+        main.addEventListener("mousemove",function(dets){
+ 
+ cr.style.left  = dets.x+"px"
+ cr.style.top =dets.y+"px"
+ 
+ 
+ 
+ 
+ 
+        })
+
+        // add frinds
+var isstatus  =  document.querySelector("h5")
+var check = 0;
+
+
+var add = document.querySelector("#add")
+
+add.addEventListener("click",function(){
+if(check==0){
+    isstatus.innerHTML = "Following"
+    isstatus.style.color = "green"
+
+add.innerHTML = "Unfollow"
+check = 1;
+
+}
+else{
+    isstatus.innerHTML ="Removed"
+    isstatus.style.color = "red"
+    check = 0;
+    
+}
+
+});
+ var con = document.querySelector("#contaner");
+var ic  = document.querySelector("i")
+con.addEventListener("dblclick",function(){
+    ic.style.transform = 'translate(-50%,-50%) scale(1)'
+ic.style.opacity = 0.8
+
+setTimeout(function(){
+ic.style.opacity = 0
+
+
+
+},1000)
+
+setTimeout(function(){
+    ic.style.transform = 'translate(-50%,-50%) scale(0)'
+
+},2000)
+
+});
+
+
+var arr = [{dp:"/hhhhhh.jpg", 
+
+
+story:"/mkjkjj.jpg"},
+{dp:"/IMG_6946 (2) (1).jpg", 
+
+
+story:"/butter.png"},
+{dp:"/IMG_6972 (2).jpg", 
+
+
+story:"/Homain.png"},
+
+
+{dp:"/unnamed-removebg-preview (1).png", 
+
+
+story:"/Homain.png"}
+
+
+]
+
+var storiyan = document.querySelector("#storiya")
+var cluter = "";
+
+arr.forEach(function(elem,idx) {
+    cluter += `<div class="story">
+        <img id="${idx}" src="${elem.dp}" alt=""></div>`;
+        
+})
+
+storiyan.innerHTML =cluter;
+storiyan.addEventListener("click",function(dets){
+document.querySelector("#full-screen").style.display = "block"
+document.querySelector("#contaner").style.display = "none"
+document.querySelector("#full-screen").style.backgroundImage = `url(${arr[dets.target.id].story})`
+setTimeout(function(){
+    document.querySelector("#full-screen").style.display = "none"
+    document.querySelector("#contaner").style.display = ""
+},3000)
+
+})
+
+
+
+</script>    
+</body>
+</html>
